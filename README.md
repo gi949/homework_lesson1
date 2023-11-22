@@ -5,6 +5,7 @@ export YC_TOKEN=$(yc iam create-token)
 export YC_CLOUD_ID=$(yc config get cloud-id)
 export YC_FOLDER_ID=$(yc config get folder-id)
 
+
 Ввести в консоли команды:
 Инициализация terraform
 terraform init
@@ -15,6 +16,7 @@ terraform apply
 В консоле будут выведены 
 внешний ip - external_ip_address_vm_1
 и внутренний ip - internal_ip_address_vm_1
+
 
 Перейти в папку ansible
 В файле ya.yaml ввести external_ip_address_vm_1 для vm-1:
