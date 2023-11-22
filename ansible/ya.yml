@@ -1,0 +1,2 @@
+[ls1]
+vm-1 ansible_host=<external_ip_address_vm_1>
